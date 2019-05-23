@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Hello all, welcome to my site.</h1>
+    </header>
+    <section>
+      <button onclick="handleToggle()">Click me</button>
+      <p id="clickedContent" style="display: none">I've been clicked hehe</p>
+    </section>
+    <section class="submissionForm">
+      <form class="form">
+        First Name:<br />
+        <input type="text" id="valid" /><br />
+        Last Name:<br />
+        <input type="text" id="valid" /><br />
+        Email Address:<br />
+        <input type="email" id="validEmail" /><br />
+        <button onclick="handleSubmission()">Submit</button>
+        <p id="clickedSubmit" style="display: none">Submission Completed!</p>
+        <p id="invalidSubmit" style="display: none">
+          Please enter valid info into the fields
+        </p>
+      </form>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>

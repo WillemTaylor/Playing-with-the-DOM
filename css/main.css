@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(161, 89, 89);
+  font-family: 'Montserrat', sans-serif;
+  width: 99%;
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+  height: 30px;
+  width: auto;
+  font-size: 0.9em;
+}
+
+.submissionForm {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.form {
+  font-size: 1.2em;
+}
+
+.form input {
+  width: 50vw;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+}
